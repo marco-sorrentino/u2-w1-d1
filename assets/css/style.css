@@ -318,3 +318,46 @@ footer a {
     font-size: 1.6rem;
   }
 }
+
+@media print {
+  header,
+  footer,
+  aside,
+  form,
+  … {
+    display: none;
+  }
+  article {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .videoSection,
+  .preAside {
+    display: none;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+
+  @page: first {
+    margin: 0cm;
+  }
+  @page: last {
+    margin: 5cm;
+  }
+  @page: left {
+    margin: 2cm 1.5cm 2cm 2cm;
+  }
+  @page: right {
+    margin: 2cm 2cm 2cm 1.5cm;
+  }
+
+  @media print {
+    a:after {
+      content: "(" attr(href) ")";
+    }
+  }
+}
