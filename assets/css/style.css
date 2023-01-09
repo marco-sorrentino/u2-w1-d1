@@ -271,6 +271,18 @@ footer a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    width: 85%;
+    margin: 30px auto;
+  }
+
+  main {
+    width: 85%;
+    margin: auto;
+  }
+
+  footer {
+    width: 85%;
+    margin: 30px auto;
   }
 
   .left {
