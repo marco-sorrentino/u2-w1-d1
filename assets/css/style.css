@@ -76,6 +76,13 @@ section h2 {
   background-color: rgb(142, 142, 142);
 }
 
+#htmlLogo {
+  width: 4rem;
+  outline: 5px solid #9e1e6d;
+  border: 5px solid #00a0c6;
+  margin: 10px 0;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
   font-size: 3rem;
@@ -224,6 +231,10 @@ footer a {
     background-color: rgb(142, 142, 142);
   }
 
+  #htmlLogo {
+    width: 6rem;
+  }
+
   table {
     width: 80%;
     margin: 80px auto;
@@ -265,6 +276,10 @@ footer a {
   .left {
     display: flex;
     align-items: center;
+  }
+
+  #htmlLogo {
+    width: 8rem;
   }
 
   header div img {
